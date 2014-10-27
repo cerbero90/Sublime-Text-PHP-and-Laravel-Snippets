@@ -1,0 +1,28 @@
+<!--
+	Created by Andrea Sartori
+	https://twitter.com/cerbero90
+-->
+<snippet>
+	<content><![CDATA[
+/**
+ * @author	Andrea Marco Sartori
+ * @var		${1:type}	\$${2:name}	${3:Property description}.
+ */
+protected \$$2;
+
+/**
+ * Set the dependencies.
+ *
+ * @author	Andrea Marco Sartori
+ * @param	$1	\$$2
+ * @return	void
+ */
+public function __construct($1 \$$2)
+{
+	\$this->$2 = \$$2;$4
+}
+]]></content>
+	<tabTrigger>const</tabTrigger>
+	<description>Generate a class constructor</description>
+	<scope>source.php</scope>
+</snippet>

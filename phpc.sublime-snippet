@@ -1,0 +1,23 @@
+<!--
+	Created by Andrea Sartori
+	https://twitter.com/cerbero90
+-->
+<snippet>
+	<content><![CDATA[
+<?php${1: namespace ${2:Namespace};}
+
+/**
+ * ${3:Class description}.
+ *
+ * @author	Andrea Marco Sartori
+ */
+${4:abstract }class ${5:Name}${6: extends ${7:Parent}}${8: implements ${9:Name}Interface}
+{
+
+	${10:// code}
+
+}
+]]></content>
+	<tabTrigger>phpc</tabTrigger>
+	<description>Generate a PHP class</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group {{ \$errors->has('${1:name}') ? 'has-error' : '' }}">
+    {{ Form::label('$1', '${2:${1/(\w)/\U$1/}}', ['class' => 'control-label']) }}
+    {{ Form::${3:text}('$1'${4:, null}, ['class' => 'form-control']) }}
+    {{ \$errors->first('$1', '<span class="help-block text-danger">:message</span>') }}
+</div>
+]]></content>
+	<tabTrigger>tbi</tabTrigger>
+	<description>Twitter Bootstrap input</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

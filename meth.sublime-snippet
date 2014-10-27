@@ -1,0 +1,21 @@
+<!--
+	Created by Andrea Sartori
+	https://twitter.com/cerbero90
+-->
+<snippet>
+	<content><![CDATA[
+/**
+ * ${1:Method description}.
+ *
+ * @author	Andrea Marco Sartori
+${2: * @param	${3:type}	\$${4:parameter}
+} * @return	${5:type}
+ */
+${6:public} function ${7:method_name}(${8:\$$4})
+{
+	${9:// code}
+}
+]]></content>
+	<tabTrigger>meth</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

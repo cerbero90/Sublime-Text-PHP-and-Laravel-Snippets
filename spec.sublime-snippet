@@ -1,0 +1,21 @@
+<!--
+	Created by Andrea Sartori
+	https://twitter.com/cerbero90
+-->
+<snippet>
+	<content><![CDATA[
+/**
+ * @testdox	It ${1:does something}.
+ *
+ * @author	Andrea Marco Sartori
+ * @return	void
+ */
+public function it_${1/( )/_/g}($2)
+{
+	${3:// code}
+}
+]]></content>
+	<tabTrigger>spec</tabTrigger>
+	<description>Generate a new PHPSpec test</description>
+	<scope>source.php</scope>
+</snippet>

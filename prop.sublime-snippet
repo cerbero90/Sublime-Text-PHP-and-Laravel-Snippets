@@ -1,0 +1,16 @@
+<!--
+	Created by Andrea Sartori
+	https://twitter.com/cerbero90
+-->
+<snippet>
+	<content><![CDATA[
+/**
+ * @author	Andrea Marco Sartori
+ * @var		${1:type}	\$${2:name}	${3:Property description}.
+ */
+${4:protected} \$${2:name}${5: = ${6:array($7)}};
+]]></content>
+	<tabTrigger>prop</tabTrigger>
+	<description>Generate a class property</description>
+	<scope>source.php</scope>
+</snippet>

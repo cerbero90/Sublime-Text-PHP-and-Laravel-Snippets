@@ -1,0 +1,21 @@
+<!--
+	Created by Andrea Sartori
+	https://twitter.com/cerbero90
+-->
+<snippet>
+	<content><![CDATA[
+/**
+ * @testdox	${1:Description}.
+ *
+ * @author	Andrea Marco Sartori
+ * @return	void
+ */
+public function test${2/(?:^| )([a-z])?/\U$1/g}()
+{
+	${3:// code}
+}
+]]></content>
+	<tabTrigger>test</tabTrigger>
+	<description>Generate a new test</description>
+	<scope>source.php</scope>
+</snippet>

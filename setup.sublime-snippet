@@ -1,0 +1,23 @@
+<!--
+	Created by Andrea Sartori
+	https://twitter.com/cerbero90
+-->
+<snippet>
+	<content><![CDATA[
+/**
+ * Initialise classes to test against.
+ *
+ * @author	Andrea Marco Sartori
+ * @return	void
+ */
+public function setUp()
+{
+	parent::setUp();
+	
+	\$this->${1:property} = $2;
+}
+]]></content>
+	<tabTrigger>setup</tabTrigger>
+	<description>Generate PHPUnit setUp</description>
+	<scope>source.php</scope>
+</snippet>
